@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think Closet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>  
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href='#'><img src="images/logo.png" class="logo" alt=""> </a>
+            
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active"href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="cart">
+        <table width="100%">
+        
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="images/party1.jpg"></td>
+                    <td>Party 1</td>
+                    <td>$80</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="images/indian1.jpg" ></td>
+                    <td>Indian 1</td>
+                    <td>$110</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$110</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+<section id="cart-add">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <input type="text" placeholder="Enter Coupon">
+        <button>Apply</button>
+    </div>
+    <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>$190</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><b>Total</td></b>
+                <td><b>$190</b></td>
+
+            </tr>
+        </table>
+    </div>
+</section>
+
+ 
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
